@@ -1,0 +1,33 @@
+{
+	"name": "SourceDataset_42l",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SalesOrderID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "productID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OrderQty",
+				"type": "smallint",
+				"precision": 5
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

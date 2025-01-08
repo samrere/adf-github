@@ -1,0 +1,14 @@
+{
+	"name": "AzureDatabricks1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-3328711265070077.17.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/a4a329e5-9298-4916-9df5-91e04c34a280/resourceGroups/DP203-samrere/providers/Microsoft.Databricks/workspaces/samrereDatabricks",
+			"existingClusterId": "1228-220112-zph44g6b"
+		}
+	}
+}

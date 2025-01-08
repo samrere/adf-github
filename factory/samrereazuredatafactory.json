@@ -1,0 +1,9 @@
+{
+	"name": "samrereazuredatafactory",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "676d62bd-f5e4-4e91-848a-c548e67302d8",
+		"tenantId": "022e2726-d7ce-49ba-9bb4-305642a2fd99"
+	}
+}
