@@ -3,6 +3,12 @@
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Stopped",
+		"pipeline": {
+			"pipelineReference": {
+				"referenceName": "CopyPipeline_42l",
+				"type": "PipelineReference"
+			}
+		},
 		"type": "TumblingWindowTrigger",
 		"typeProperties": {
 			"frequency": "Minute",
@@ -14,11 +20,7 @@
 			"retryPolicy": {
 				"intervalInSeconds": 30
 			},
-			"dependsOn": [
-				{
-					"type": "SelfDependencyTumblingWindowTriggerReference"
-				}
-			]
+			"dependsOn": []
 		}
 	}
 }
